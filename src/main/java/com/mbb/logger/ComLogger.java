@@ -11,14 +11,14 @@ public class ComLogger {
     private ComLogger() {
     }
 
-    private static class MbbLoggerHolder {
+    private static class ComLoggerHolder {
         private static final ComLogger INSTANCE = new ComLogger();
     }
 
     public static ComLogger getInstance(Class<?> clazz) {
-        ComLogger mbbLogger = MbbLoggerHolder.INSTANCE;
-        mbbLogger.logger = LoggerFactory.getLogger(clazz);
-        return mbbLogger;
+        ComLogger comLogger = ComLoggerHolder.INSTANCE;
+        comLogger.logger = LoggerFactory.getLogger(clazz);
+        return comLogger;
     }
 
     private void initialze(Class<?> clazz){

@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05fd4965-6be3-43eb-b65e-bb87ff10344b" name="Changes" comment="Update gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logger/MbbLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mbb/logger/ComLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logger/MbbLoggerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mbb/logger/ComLoggerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logger/MbbLoggerInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mbb/logger/ComLoggerInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-    </list>
+    <list default="true" id="05fd4965-6be3-43eb-b65e-bb87ff10344b" name="Changes" comment="Conflict Resolved" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
