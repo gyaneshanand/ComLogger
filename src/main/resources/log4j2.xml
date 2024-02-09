@@ -1,0 +1,37 @@
+<Configuration status="DEBUG">
+
+    <Appenders>
+
+        <RollingRandomAccessFile name="LogToRollingRandomAccessFile"
+                                 fileName="${sys:LOG_PATH:-logs}/${sys:LOG_FILE_NAME:-app}"
+                                 filePattern="${sys:LOG_PATH:-logs}/${sys:LOG_FILE_NAME:-app}-%d{MM-dd-yyyy}-%i.log.gz">
+            <PatternLayout>
+                <Pattern>%d{dd/MM/yyyy, HH:mm:ss,SSS} [${sys:LOG_APP_NAME:-app}] [%5p] [%t] %c{10} : %m%n</Pattern>
+            </PatternLayout>
+
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+            </Policies>
+
+            <DefaultRolloverStrategy max="15"/>
+
+        </RollingRandomAccessFile>
+
+        <Async name="Async">
+            <!-- reference to other appenders -->
+            <AppenderRef ref="LogToRollingRandomAccessFile"/>
+        </Async>
+
+    </Appenders>
+    <Loggers>
+        <!-- avoid duplicated logs with additivity=false -->
+        <Logger name="com.cl" level="${sys:LOG_LEVEL:-info}" additivity="false">
+            <AppenderRef ref="LogToRollingRandomAccessFile"/>
+        </Logger>
+
+        <Root level="${sys:LOG_LEVEL:-info}">
+            <AppenderRef ref="LogToRollingRandomAccessFile"/>
+        </Root>
+    </Loggers>
+</Configuration>

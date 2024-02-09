@@ -1,0 +1,47 @@
+{
+  "timestamp": "Date:Time UTC",
+  "traceId": "traceId",
+  "app": "app",
+  "tags" : [ "company-id", "user-id", ["ip1"]],
+  "level": "level",
+  "request": {
+    "method": "method",
+    "path": "path",
+    "headers": {
+      "header1": "header1",
+      "header2": "header2"
+    },
+    "body": {
+        "body1": "body1",
+        "body2": "body2"
+    }
+  }
+}
+
+{
+  "timestamp": "Date:Time UTC",
+  "traceId": "traceId",
+  "app": "app",
+  "tags" : [ "company-id", "user-id", ["ip1"]],
+  "level": "level",
+  "reponse": {
+    "method": "method",
+    "path": "path",
+    "status": "status",
+    "trace": "trace"
+  }
+}
+
+{
+  "timestamp": "Date:Time UTC",
+  "traceId": "traceId",
+  "app": "app",
+  "tags" : [ "company-id", "user-id", ["ip1"]],
+  "level": "level",
+  "data": {
+    "body": {
+      "body1": "body1",
+      "body2": "body2"
+    }
+  }
+}
