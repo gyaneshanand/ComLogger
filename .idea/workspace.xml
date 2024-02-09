@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05fd4965-6be3-43eb-b65e-bb87ff10344b" name="Changes" comment="Conflict Resolved" />
+    <list default="true" id="05fd4965-6be3-43eb-b65e-bb87ff10344b" name="Changes" comment="Comlogger V1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,13 +68,22 @@
       <option name="project" value="LOCAL" />
       <updated>1700469628980</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Comlogger V1">
+      <option name="closed" value="true" />
+      <created>1707499537583</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707499537583</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add global logger properties file" />
     <MESSAGE value="Add Logger factory , logger and Initializer" />
     <MESSAGE value="Update gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update gitignore" />
+    <MESSAGE value="Comlogger V1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comlogger V1" />
   </component>
 </project>
